@@ -103,7 +103,8 @@ image {
   padding: 5px;
   border: solid 2px black;
   border-radius: 0px 0px 10px 0px;
+}
 
 .sectside {
-  height: 1300px;
+  height: auto;
 }
