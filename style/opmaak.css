@@ -91,7 +91,13 @@ image {
 }
 
 .noAside {
-  width: 125%;
+  float: left;
+  clear: left;
+  width: 100%;
+  height: 500px;
+  background: #0B5699;
+  border: solid 2px black;
+  align-self: center;
 }
 
 #if{
