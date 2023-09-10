@@ -47,7 +47,7 @@ ul li a {
 section {
   float: left;
   clear: left;
-  width: 74%;
+  width: 100%;
   height: 500px;
   background: #0B5699;
   border: solid 2px black;
@@ -90,10 +90,10 @@ image {
   background-color: #157759;
 }
 
-.noAside {
+.widthAside {
   float: left;
   clear: left;
-  width: 100%;
+  width: 74%;
   height: 500px;
   background: #0B5699;
   border: solid 2px black;
