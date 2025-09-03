@@ -1,6 +1,20 @@
-body {
-  color: blue;
+#container {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
 }
-h1 {
-  color: blue;
+
+.box {
+  min-height: 700px;
+}
+
+#left_column {
+  background-color: green;
+}
+
+#center {
+  background-color: white;
+}
+
+#right_column {
+  background-color: gray;
 }
