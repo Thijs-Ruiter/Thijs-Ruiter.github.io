@@ -1,3 +1,25 @@
+#container {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+}
+
+.box {
+  min-height: 700px;
+}
+
+#left_column {
+  background-color: green;
+}
+
+#center {
+  background-color: white;
+}
+
+#right_column {
+  background-color: gray;
+}
+
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
