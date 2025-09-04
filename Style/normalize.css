@@ -1,7 +1,11 @@
 #container {
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
-  grid-template-rows: 1fr 6fr;
+  grid-template-rows: 1fr 3fr 3fr 1fr;
+  grid-template-areas: "a a a"
+                       "b c d"
+                       "b e d"
+                       "f f f";
 }
 
 .box {
@@ -12,18 +16,32 @@
   grid-column-start: 1;
   grid-column-end: 4;
   background-color: lightblue;
+  grid-area: "a";
 }
 
 #left_column {
   background-color: green;
+  grid-area: "b";
 }
 
 #center {
   background-color: lightgreen;
+  grid-area: "c";
+}
+
+#center2 {
+  background-color: yellow;
+  grid-area: "e";
 }
 
 #right_column {
   background-color: lightgray;
+  grid-area: "d";
+}
+
+#footer {
+  background: grey;
+  grid-area: "f";
 }
 
 
