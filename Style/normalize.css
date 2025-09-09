@@ -18,7 +18,8 @@
 }
 
 #top_bar * {
-  text-align: center;
+  text-align: left;
+  padding-left: 50px;
 }
 
 #left_column {
