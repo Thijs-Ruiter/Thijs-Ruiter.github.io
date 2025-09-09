@@ -18,6 +18,10 @@
   height: 50px;
 }
 
+#top_bar * {
+  text-align: center;
+}
+
 #left_column {
   background-color: green;
   grid-area: b;
