@@ -13,9 +13,8 @@
 }
 
 #top_bar {
-  border: 1px;
+  border: 2px dotted black;
   grid-area: a;
-  height: 50px;
 }
 
 #top_bar * {
@@ -23,27 +22,27 @@
 }
 
 #left_column {
-  background-color: green;
+  border: 2px dotted black;
   grid-area: b;
 }
 
 #center {
-  background-color: lightgreen;
+  border: 2px dotted black;
   grid-area: c;
 }
 
 #center2 {
-  background-color: yellow;
+  border: 2px dotted black;
   grid-area: e;
 }
 
 #right_column {
-  background-color: lightgray;
+  border: 2px dotted black;
   grid-area: d;
 }
 
 #footer {
-  background: grey;
+  border: 2px dotted black;
   grid-area: f;
 }
 
