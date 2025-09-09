@@ -15,6 +15,7 @@
 #top_bar {
   background-color: lightblue;
   grid-area: a;
+  height: 50px;
 }
 
 #left_column {
