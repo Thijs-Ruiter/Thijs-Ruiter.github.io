@@ -13,7 +13,7 @@
 }
 
 #top_bar {
-  background-color: lightblue;
+  border: 1px;
   grid-area: a;
   height: 50px;
 }
