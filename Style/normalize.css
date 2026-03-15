@@ -8,12 +8,15 @@
                        "f f f";
 }
 
+li {
+  display: inline-block;
+}
+
 .box {
   min-height: 700px;
 }
 
 #top_bar {
-  position: fixed;
   border: 2px dotted black;
   grid-area: a;
   justify-content: center;
