@@ -8,8 +8,24 @@
                        "f f f";
 }
 
+nav {
+  position: fixed;
+  align-items: center;
+}
+
+ul {
+  position: fixed;
+  text-align: center;
+}
+
 li {
   display: inline-block;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  background-color: aqua;
 }
 
 .box {
