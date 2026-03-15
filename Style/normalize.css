@@ -1,3 +1,10 @@
+body {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 5vh;
+  padding-top: 2vh;
+}
+
 h1, h2, h3 {
   color: black;
   text-align: center;
