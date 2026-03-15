@@ -13,8 +13,10 @@
 }
 
 #top_bar {
+  position: fixed;
   border: 2px dotted black;
   grid-area: a;
+  justify-content: center;
 }
 
 #title {
