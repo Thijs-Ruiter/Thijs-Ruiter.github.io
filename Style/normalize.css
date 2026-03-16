@@ -6,16 +6,19 @@ h1, h2, h3 {
   color: white;
   text-align: center;
   align-items: center;
+  font-family: "Jersey 20", monospace;
 }
 
 p {
   color: white;
   text-align: left;
   align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
   color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 nav {
