@@ -21,21 +21,27 @@ nav {
   position: fixed;
   align-items: center;
   background-color: gray;
+  margin: 2px;
+  padding: 0px;
 }
 
 ul {
   position: fixed;
   text-align: center;
+  margin: 2px;
+  padding: 0px;
 }
 
 li {
   display: inline-block;
+  margin: 8px;
+  padding: 4px;
 }
 
 li a {
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 8px;
   background-color: aqua;
 }
 
@@ -58,6 +64,7 @@ li a:hover {
 #navbar {
   background-color: grey;
   grid-area: a;
+  align-items: flex-start;
 }
 
 #main {
