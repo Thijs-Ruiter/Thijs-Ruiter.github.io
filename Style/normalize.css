@@ -35,7 +35,6 @@ ul {
 
 li {
   display: inline-block;
-  margin: 8px;
   padding: 4px;
 }
 
@@ -68,7 +67,7 @@ li a:hover {
 }
 
 #main {
-  background-color: white;
+  background-color: black;
   grid-area: c;
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
