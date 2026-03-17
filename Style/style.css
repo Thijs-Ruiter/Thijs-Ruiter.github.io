@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(40, 40, 40);
 }
 
 h1, h2, h3 {
@@ -24,7 +24,7 @@ a {
 nav {
   position: fixed;
   align-items: center;
-  background-color: gray;
+  background-color: rgb(30, 30, 30);
   margin: 2px;
   padding: 0px;
 }
@@ -49,13 +49,13 @@ li a {
 }
 
 li a:hover {
-  background-color: black;
+  background-color: rgb(30, 30, 30);
 }
 
 #container {
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
-  grid-template-rows: auto 3fr 1fr;
+  grid-template-rows: 100px 3fr 1fr;
   grid-template-areas: 
   "a a a" 
   "b c d"
@@ -63,13 +63,13 @@ li a:hover {
 }
 
 #navbar {
-  background-color: grey;
+  background-color: rgb(30, 30, 30);
   grid-area: a;
   align-items: flex-start;
 }
 
 #main {
-  background-color: black;
+  background-color: rgb(40, 40, 40);
   grid-area: c;
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
