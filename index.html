@@ -2,47 +2,55 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Pagina</title>
+    <title>Thijs Ruiter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="Style/style.css">
   </head>
   <body>
+    <div id="navbar">
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#main">Projects</a>
+          </li>
+          <li>
+            <a href="#footer">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div id="container">
-      <div id="navbar">
-        <nav>
-          <ul>
-            <li>
-              <a href="#Home">Home</a>
-            </li>
-            <li>
-              <a href="#Projects">Projects</a>
-            </li>
-            <li>
-              <a href="#Contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div id="main">
-        <h1 id="Home">Thijs Ruiter</h1>
+      <div id="home">
+        <h1 id="TitlePage">Thijs Ruiter</h1>
         <p>
           I'm Thijs Ruiter. I'm currently in my exam year of VWO. My personal interest lies in game development and computer science. On this site, you can find some of the projects I have done. Coding languages I often use are C# for Unity and Python. I have also done a pre-university C++ course from the VU. 
         </p>
+      </div>
+      <div id="main">
         <h1 id="Projects">Projects</h1>
         <p>
           Here you can find the projects that I have done
         </p>
-        <h2>Scheepvaart Game</h2>
-        <p>
-          As part of a technasium project, I was tasked with 2 others, to design an educational game for the Scheepvaart Museum. We were asked to shed some light on the other perspective of slavery, the perspective of the enslaved people. Thus, we designed a game where you play as an enslaved person and must make decisions that boil down to cooperation or attempt to escape and earn freedom. 
-        </p>
+        <div class="project">
+          <img src="Images\Screenshot Scheepvaartgame.jpeg" class="center"></img>
+          <h2>Scheepvaart Game</h2>
+          <p>
+            As part of a technasium project, I was tasked with 2 others, to design an educational game for the Scheepvaart Museum. We were asked to shed some light on the other perspective of slavery, the perspective of the enslaved people. Thus, we designed a game where you play as an enslaved person and must make decisions that boil down to cooperation or attempt to escape and earn freedom. 
+          </p>
+        </div>
+        <div class="project">
+          <h2>Top-down Dungeoncrawler</h2>
+        </div>
       </div>
       <div id="footer">
-        <h1 id="Contact">Contact</h1>
+        <h1 id="Contacts">Contact</h1>
         <p>
           Here you can contact me
         </p>
-        <a href="https://github.com/Thijs-Ruiter">Github</a>
+        <img scr="Images\github_logo.png" class="center"></img>
       </div>
     </div>
   </body>
